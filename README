@@ -1,0 +1,29 @@
+﻿# 👥 Správa Zaměstnanců - Webová PHP aplikace pro evidenci zaměstnanců, role uživatelů a audit změn.
+
+## Backend
+- **PHP 8+** - serverová logika
+- **PDO** - bezpečný přístup k databázi
+- **SQLite / MySQL** - databáze (lokální i produkční režim)
+- **Sessions** - autentizace uživatelů a řízení přístupu
+
+## Frontend
+- **HTML5** - struktura stránek
+- **CSS3** - dashboard a formuláře
+- **JavaScript** - interaktivní prvky UI
+
+## ✨ Funkce
+- **Přihlášení a role** - Admin, Manager, Viewer
+- **CRUD zaměstnanců** - přidání, úprava, detail, smazání
+- **Validace dat** - kontrola povinných polí, emailů a telefonů
+- **Vyhledávání a filtrování** - rychlá práce se seznamem zaměstnanců
+- **Audit log** - záznam změn pro dohledatelnost
+- **Import/Export** - CSV operace pro hromadná data
+- **Profil uživatele** - základní nastavení účtu
+- **Bezpečnost** - hashování hesel, prepared statements, ochrana relace
+
+## 📋 Hlavní části
+1. **config/** - konfigurace databáze a připojení
+2. **includes/** - sdílené funkce a helpery
+3. **employees/** - moduly pro správu zaměstnanců
+4. **assets/** - CSS/JS a statické soubory
+5. **Hlavní stránky** - dashboard, login/logout, audit, profil
